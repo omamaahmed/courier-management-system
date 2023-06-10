@@ -38,8 +38,8 @@ CREATE TABLE `adlogin` (
 --
 
 INSERT INTO `adlogin` (`email`, `password`, `a_id`) VALUES
-('admin1@gmail.com', '12345', 1),
-('admin2@gmail.com', '12345', 2);
+('Omama1@gmail.com', '12345', 1),
+('Haider2@gmail.com', '12345', 2);
 
 -- --------------------------------------------------------
 
@@ -80,8 +80,8 @@ CREATE TABLE `contacts` (
 --
 
 INSERT INTO `contacts` (`id`, `email`, `subject`, `msg`) VALUES
-(1, 'love@gmail.com', 'delay', 'I have courier 2 weeks ago but its not delivered yet..'),
-(2, 'labh.18is033@cambridge.edu.in', 'Delay', 'gjndfjkgnhdfjkgn');
+(1, 'Omama1@gmail.com', 'delay', 'I have courier 2 weeks ago but its not delivered yet..'),
+(2, 'Haider2@cambridge.edu.in', 'Delay', 'gjndfjkgnhdfjkgn');
 
 -- --------------------------------------------------------
 
@@ -111,8 +111,8 @@ CREATE TABLE `courier` (
 --
 
 INSERT INTO `courier` (`c_id`, `u_id`, `semail`, `remail`, `sname`, `rname`, `sphone`, `rphone`, `saddress`, `raddress`, `weight`, `billno`, `image`, `date`) VALUES
-(7, 4, 'love@gmail.com', 'himanshu@gmail.com', 'love', 'himanshu', '06362786223', '6526652', 'KR puram,Bangalore,Karnataka', 'Boys hostel of Cambridge institute of technology,j', 2, 22, 'cddd.jpeg', '2020-12-06'),
-(8, 4, 'love@gmail.com', 'gyanshu@gmail.com', 'love', 'gyanshu', '06362786223', '06362786223', 'KR puram,Bangalore,Karnataka', 'Boys hostel of Cambridge institute of technology,j', 2, 3263, 'fc.png', '2020-12-06');
+(7, 4, 'love@gmail.com', 'rania@gmail.com', 'Rania', 'Omama', '23244254', '0311223344', 'University Road,Peshawar', 'Comsats,Abbottabad', 2, 22, 'cddd.jpeg', '2023-12-06'),
+(8, 4, 'love@gmail.com', 'khadeeja@gmail.com', 'Khadeeja', 'Omama', '24243432', '031122223344', 'University Road,Peshawar', 'Comsats,Abbottabad', 2, 3263, 'fc.png', '2023-12-06');
 
 -- --------------------------------------------------------
 
@@ -131,8 +131,8 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`email`, `password`, `u_id`) VALUES
-('premkumar1215225@gmail.com', '12345', 1),
-('love@gmail.com', '12345', 4);
+('Omama@gmail.com', '12345', 1),
+('Rania@gmail.com', '12345', 4);
 
 -- --------------------------------------------------------
 
@@ -152,8 +152,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`u_id`, `email`, `name`, `pnumber`) VALUES
-(1, 'premkumar1215225@gmail.com', 'prem', 56665),
-(4, 'love@gmail.com', 'LOVE RAJ', 2147483647);
+(1, 'Omama@gmail.com', 'Omama', 56665),
+(4, 'Rania@gmail.com', 'Rania', 2147483647);
 
 --
 -- Indexes for dumped tables
